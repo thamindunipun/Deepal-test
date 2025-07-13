@@ -72,12 +72,11 @@ const VideoHomepage = () => {
           muted={isMuted}
           loop
           playsInline
+          style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover' }}
         >
           {/* AI Neural Network Animation Videos */}
           <source src="https://videos.pexels.com/video-files/3129671/3129671-uhd_2560_1440_30fps.mp4" type="video/mp4" />
           <source src="https://videos.pexels.com/video-files/3209828/3209828-uhd_2560_1440_25fps.mp4" type="video/mp4" />
-          {/* Fallback: AI-themed gradient */}
-          <div className="w-full h-full bg-gradient-to-br from-blue-600 via-purple-700 to-cyan-600"></div>
         </video>
         
         {/* Dark overlay with AI-themed gradient */}

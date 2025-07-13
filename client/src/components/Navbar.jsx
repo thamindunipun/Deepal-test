@@ -80,7 +80,7 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className="bg-white shadow-sm border-b flex justify-end">
+        <nav className="bg-white shadow-sm flex justify-end">
             <div className="max-w-7xl w-full px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-end items-start h-16">
                     <div className="hidden md:block ml-auto">
