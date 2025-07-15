@@ -1,16 +1,17 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import HomeSlider from './components/HomeSlider'
 import Home from './components/Home'
 import { Routes, Route } from 'react-router-dom'
+// ...existing code...
 
 function App() {
   return (
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<HomeSlider />} />
-        <Route path="/home" element={<Home />} />
+        
+        <Route path="/" element={<Home />} />
+        // ...existing code...
         <Route path="/Models/E07" element={<h1>Model E 07 Page</h1>} />
         <Route path="/Models/S07" element={<h1>Model S 07 Page</h1>} />
         <Route path="/Models/L07" element={<h1>Model L 07 Page</h1>} />
